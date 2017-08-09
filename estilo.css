@@ -1,0 +1,20 @@
+/* abaixo irá fazer com que toda a tag <p> do arquivo curriculo.html fique em cor de rosa
+a hierarquia funciona da seguinte forma:
+1. acata o atributo direto da tag
+2. acata o que estiver dentro do style da tag head
+3. acata o que tiver no arquivo css
+4. se não tiver nenhuma das opções acima, assume o padrão do navegador
+abaixo a formatação do seletor tag <p> - este seletor é global*/
+p{
+  color : pink;
+  font-size : 1em;
+}
+/* abaixo criada classe para determinar novo atributo - este seletor é especifico */
+.endereco{
+  color : brown;
+  font-family : monospace;
+}  
+/* abaixo criada classe para especifica apenas para elemento h5 */
+h5.teste{
+  color : gray;
+}
